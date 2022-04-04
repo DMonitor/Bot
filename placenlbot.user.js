@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Furbot
 // @namespace    https://github.com/PlaceNL/Bot
-// @version      4
+// @version      5
 // @description  De bot voor PlaceNL!
 // @author       NoahvdAa
 // @match        https://www.reddit.com/r/place/*
@@ -39,34 +39,35 @@ if (window.top !== window.self) {
 }
 //Updated color palette, made place for more in the future.
 const COLOR_MAPPINGS = {
+	'#6D001A': 0,//Newer Color: Burgundi
 	'#BE0089': 1,//New Color: Dark Red 
 	'#FF4500': 2,
 	'#FFA800': 3,
 	'#FFD635': 4,
-	//'#------': 5,
+	'#FFF8B8': 5, //Newer Color:Pale Yellow
 	'#00A368': 6,
 	'#00CC78': 7,//New Color: Green
 	'#7EED56': 8,
 	'#01746f': 9, //New Color: Dark Teal 
 	'#009EAA': 10, //New Color: Teal 
-	//'#------': 11, 
+	'#00CCC0': 11, //Newer Color: Light Teal
 	'#2450A4': 12,
 	'#3690EA': 13,
 	'#51E9F4': 14,
 	'#493AC1':15, //New Color: Indigo 
 	'#6A5CFF':16, //New Color: Periwinkle
-	//'#------':17,
+	'#94B3FF':17, //Newer Color: Lavender
 	'#811E9F': 18,
 	'#B44AC0': 19,
-	//'#------':20,
-	//'#------':21,
+	'#E4ABFF':20, //Newer Color: Pale Purple
+	'#DE107F':21, //Newer Color: Magenta
 	'#FF3881':22, //New Color: Pink
 	'#FF99AA': 23,
 	'#6D482F':24, //New Color: Dark Brown
 	'#9C6926': 25,
-	//'#------':26,
+	'#FFB470':26, //Newer Color: Beige
 	'#000000': 27,
-	//'#------':28,
+	'#515252':28,//Newer Color: Dark Gray
 	'#898D90': 29,
 	'#D4D7D9': 30,
 	'#FFFFFF': 31
